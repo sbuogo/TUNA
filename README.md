@@ -10,4 +10,4 @@ decidecade bands.
 A calibration file with arbitrary number of frequency points is applied before processing.
 Results may be saved as graphics files or text files.
 
-Based on previous project UWNoiPro (2020-2024)
+Based on previous project UWNoiPro (2020-2024) latest version 5.06
