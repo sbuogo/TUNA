@@ -1,0 +1,84 @@
+======================================
+UWNoiPro - UnderWater Noise Processing
+======================================
+v. 5.0x - 08-mar-2024
+Author: Silvano Buogo - CNR-INM - silvano.buogo@cnr.it
+
+Installation notes
+
+UWNoiPro executable is developed under Matlab environment and packaged as
+a Windows standalone application requiring Matlab runtime v. 9.5 (R2018b). 
+If not already present, runtime is freely and automatically downloaded 
+from the web during installation.
+
+
+1. System requirements
+
+System requirements are the same as those for Matlab v. 9.5 (R2018b):
+
+- Operating systems:
+	Windows 10
+	Windows 7 Service Pack 1
+	Windows Server 2016, 2012 R2, 2012
+	Note: Windows 8.1 not supported
+
+- Processors:
+	Any Intel or AMD x86-64 processor, 4 cores and AVX2 support recommended
+
+- Minimum 3 GB Disk space, SSD recommended
+
+- Minimum 4 GB RAM, 8 GB recommended
+
+- No graphics card required, hardware accelerated graphics card supporting
+  	OpenGL 3.3 with 1 GB GPU memory recommended.
+
+
+2. Installation procedure
+
+Launch the installer file "UWNoiPro505Installer_web.exe", then follow the
+instructions. User is prompted to select installation folders for the executable
+and for runtime.
+If Matlab full program or runtime is not present or is installed with version(s)
+different than v. 9.5, this runtime is installed using a proper separate target 
+folder, possibly along with the existing one(s).  The installer skips runtime install 
+if Matlab runtime v. 9.5 is detected, considerably reducing installation time. 
+Note that some Matlab versions later than v. 9.5 may still support v. 9.5 runtime.
+
+Runtime download size is about 800 MB, which may require quite some time on slow 
+connections.
+
+Alternatively, prior to installing UWNoiPro, download and install the Windows version 
+of the MATLAB Runtime for R2018b from the following link on the MathWorks website:
+
+    http://www.mathworks.com/products/compiler/mcr/index.html
+   
+For more information about the MATLAB Runtime and the MATLAB Runtime installer, see 
+"Distribute Applications" in the MATLAB Compiler documentation in the MathWorks 
+Documentation Center.
+
+For information on deployment terminology, go to
+    http://www.mathworks.com/help 
+    
+and select 
+
+    MATLAB Compiler > Getting Started > About Application Deployment > 
+    Deployment Product Terms 
+    
+in the MathWorks Documentation Center.
+
+
+3. Launching UWNoiPro application
+
+UWNoiPro is started as a normal Windows application by double-clicking on it.
+When starting for the first time, some additional time may be required to configure
+Matlab runtime in the background, as if opening a regular full Matlab session.
+
+
+4. Uninstalling UWNoiPro
+
+UWNoiPro may be uninstalled using Windows standard system tool. Uninstalling UWNoiPro
+does not uninstall Matlab runtime, which should be done separately.
+
+
+
+
