@@ -1,4 +1,4 @@
-# UWNoiPro - parent project of TUNA
+# UWNoiPro - parent project of TUNE
 UnderWater NOIse PROcessing
 
 Copyright (C) 2024 Silvano Buogo - silvano.buogo@cnr.it
@@ -10,4 +10,5 @@ decidecade bands.
 A calibration file with arbitrary number of frequency points is applied before processing.
 Results may be saved as graphics files or text files.
 
-Serves as parent project of TUNA (2024-)
+UWNoiPro was an internal development project that was renamed to TUNE at beginning of 2025
+for external distribution after benchmarking and cross-validation with other software.
