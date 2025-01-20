@@ -10,5 +10,7 @@ decidecade bands.
 A calibration file with arbitrary number of frequency points is applied before processing.
 Results may be saved as graphics files or text files.
 
-UWNoiPro was an internal development project that was renamed to TUNE at beginning of 2025
+UWNoiPro was an internal development project that evolved into TUNE at beginning of 2025
 for external distribution after benchmarking and cross-validation with other software.
+
+UWNoiPro code listed in this branch is NOT validated and is only included here for reference.
