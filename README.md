@@ -1,7 +1,7 @@
 # TUNE
 Tool for Underwater Noise Evaluation
 
-Copyright (C) 2024 Silvano Buogo, Junio Fabrizio Borsani, Valentina Caradonna
+Copyright (C) 2025 Silvano Buogo, Junio Fabrizio Borsani, Valentina Caradonna
 
 TUNE is a standalone Windows (R) application developed under MATLAB (R) for analysis of underwater audio files in WAV format.
 Any number of input files can be processed in batch mode with few limitations on size, channels,
