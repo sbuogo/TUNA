@@ -8,6 +8,8 @@ Any number of input files can be processed in batch mode with few limitations on
 A frequency dependent calibration file with arbitrary number of frequency points must be provided and is applied before processing.
 Results may be saved as graphics files or text files.
 
+Executable and installer files may be downloaded from corresponding 'Releases' tags.
+
 Requires Matlab Runtime v. 9.5 (R2018b), which may be freely downloaded and installed either separately or using the installer.
 
 See installation notes for system requirements.
