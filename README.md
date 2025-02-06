@@ -12,6 +12,8 @@ Executable and installer files may be downloaded from corresponding 'Releases' t
 
 Requires Matlab Runtime v. 9.5 (R2018b), which may be freely downloaded and installed either separately or using the installer.
 
-See installation notes for system requirements.
+TUNE is distributed under GNU General Public License v 3.0: see 'License' file for details.
+
+See 'Wiki' tag or installation notes for system requirements.
 
 Send comments to: silvano.buogo@cnr.it
