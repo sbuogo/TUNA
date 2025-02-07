@@ -1,0 +1,48 @@
+# TUNE Calibration file format - v. 5.13 and later
+#
+# ﻿Calibration data is imported into TUNE as a text file
+# with [frequency,sensitivity] pairs, one for each row.
+# Minimum 3 frequency points must be listed, at least
+# partially covering the frequency range of interest.
+# Frequency points may be arbitrary, provided that
+# they appear in ascending order.
+# Values for missing frequencies are linearly interpolated 
+# and those for frequencies outside listed range are
+# extrapolated keeping first or last value as a constant.
+# Units are Hz for frequencies and dB re 1 V/microPa for 
+# sensitivities (M).
+# Alternatively, scale factors (SF) in Pa may be used: the
+# program recognizes either representation from the sign
+# of first value (negative for M, positive for SF).
+# Any row beginning with non-numeric character is ignored,
+# such as these header lines starting with '#'.
+# Blank lines are also ignored.
+# Preferred field separator between the two columns is tab.
+# Other separators such as space or comma might be used as well,
+# but not a combination of them otherwise rows with different
+# separator than first data row will be skipped.
+# Decimal separator must be point, using comma is unsupported.
+#
+# Two examples are given below of accepted calibration data format.
+# First one is with M in dB, second one is with SF in pascal.
+
+20	-190.5
+31.5	-190.6
+100	-190.3
+200	-191.75
+400	-189.9
+1000	-190.04
+5000	-194.2
+10000	-196.18
+
+########################
+
+20	3349.7
+31.5	3388
+100	3273.41
+200	3868
+400	3126
+1000	3177
+5000	5128.6
+10000	6441.7
+
